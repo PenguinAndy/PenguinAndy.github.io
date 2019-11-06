@@ -79,11 +79,14 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="二两白砂糖&#39;s blogs">
-<meta property="og:url" content="https:&#x2F;&#x2F;github.com&#x2F;PenguinAndy&#x2F;index.html">
+<meta name="description" content="环境：  Mac OS Mojave 10.14.6、Git、HomeBrew、NVM工具及使用内容：TerminalNodejs、Hexo主题hoxo-deployer-git    一、配置环境 HomeBrew：  其实这个已经在官网上介绍的很明确了，HomeBrew官网，总结来说配置只有一条：   1&#x2F;usr&#x2F;bin&#x2F;ruby -e &amp;quot;$(curl -fsSL https:&#x2F;&#x2F;">
+<meta property="og:type" content="article">
+<meta property="og:title" content="使用Hexo搭建github.io免费个人博客">
+<meta property="og:url" content="https:&#x2F;&#x2F;github.com&#x2F;PenguinAndy&#x2F;2019&#x2F;11&#x2F;05&#x2F;Blog&#x2F;index.html">
 <meta property="og:site_name" content="二两白砂糖&#39;s blogs">
+<meta property="og:description" content="环境：  Mac OS Mojave 10.14.6、Git、HomeBrew、NVM工具及使用内容：TerminalNodejs、Hexo主题hoxo-deployer-git    一、配置环境 HomeBrew：  其实这个已经在官网上介绍的很明确了，HomeBrew官网，总结来说配置只有一条：   1&#x2F;usr&#x2F;bin&#x2F;ruby -e &amp;quot;$(curl -fsSL https:&#x2F;&#x2F;">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2019-11-06T13:17:16.571Z">
 <meta name="twitter:card" content="summary">
 
 
@@ -114,13 +117,13 @@
 
 
 
-  <link rel="canonical" href="https://github.com/PenguinAndy/"/>
+  <link rel="canonical" href="https://github.com/PenguinAndy/2019/11/05/Blog/"/>
 
 
 
 
 
-  <title>二两白砂糖's blogs</title>
+  <title>使用Hexo搭建github.io免费个人博客 | 二两白砂糖's blogs</title>
   
 
 
@@ -139,8 +142,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-  page-home">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -213,9 +215,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -245,9 +247,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2019/11/05/Blog/" itemprop="url">使用Hexo搭建github.io免费个人博客</a></h1>
+          <h1 class="post-title" itemprop="name headline">使用Hexo搭建github.io免费个人博客</h1>
         
 
         <div class="post-meta">
@@ -297,9 +297,7 @@
       
 
       
-        
-          
-            <blockquote>
+        <blockquote>
 <p>环境：</p>
 <blockquote>
 <p>Mac OS Mojave 10.14.6、Git、HomeBrew、NVM<br>工具及使用内容：<br>Terminal<br>Nodejs、Hexo主题<br>hoxo-deployer-git</p>
@@ -404,8 +402,6 @@
 [ -s &quot;$NVM_DIR/nvm.sh&quot; ] &amp;&amp; \. &quot;$NVM_DIR/nvm.sh&quot;  # This loads nvm  
 [ -s &quot;$NVM_DIR/bash_completion&quot; ] &amp;&amp; \. &quot;$NVM_DIR/bash_completion&quot;  # This loads nvm bash_completion  </code></pre><p>添加完成后运行:</p>
 <pre><code>source .bash_profile</code></pre>
-          
-        
       
     </div>
     
@@ -422,12 +418,12 @@
       
 
       
+      
+      
 
       
 
       
-      
-        <div class="post-eof"></div>
       
     </footer>
   </div>
@@ -437,10 +433,11 @@
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -448,6 +445,10 @@
 
 
           
+
+  
+
+
 
         </div>
         
@@ -468,8 +469,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -515,6 +525,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#一、配置环境"><span class="nav-number">1.</span> <span class="nav-text">一、配置环境</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#二、项目搭建："><span class="nav-number">2.</span> <span class="nav-text">二、项目搭建：</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Git仓库创建"><span class="nav-number">2.1.</span> <span class="nav-text">Git仓库创建:</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#创建博客："><span class="nav-number">2.2.</span> <span class="nav-text">创建博客：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#修改配置："><span class="nav-number">2.3.</span> <span class="nav-text">修改配置：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#写文章"><span class="nav-number">2.4.</span> <span class="nav-text">写文章</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#三、预览"><span class="nav-number">3.</span> <span class="nav-text">三、预览</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#启动hexo本地服务器："><span class="nav-number">3.1.</span> <span class="nav-text">启动hexo本地服务器：</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#四、发布"><span class="nav-number">4.</span> <span class="nav-text">四、发布</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#4-1-生成静态网页并发布"><span class="nav-number">4.1.</span> <span class="nav-text">4.1 生成静态网页并发布</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#五、常见问题"><span class="nav-number">5.</span> <span class="nav-text">五、常见问题</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#同步问题："><span class="nav-number">5.1.</span> <span class="nav-text">同步问题：</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -648,6 +674,10 @@
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
 
   
 
