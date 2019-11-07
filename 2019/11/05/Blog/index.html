@@ -5,7 +5,7 @@
   
 
 
-<html class="theme-next muse use-motion" lang="zh-Hans">
+<html class="theme-next gemini use-motion" lang="zh-Hans">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -81,12 +81,12 @@
 
 <meta name="description" content="环境：  Mac OS Mojave 10.14.6、Git、HomeBrew、NVM工具及使用内容：TerminalNodejs、Hexo主题hoxo-deployer-git    一、配置环境 HomeBrew：  其实这个已经在官网上介绍的很明确了，HomeBrew官网，总结来说配置只有一条：   1&#x2F;usr&#x2F;bin&#x2F;ruby -e &amp;quot;$(curl -fsSL https:&#x2F;&#x2F;">
 <meta property="og:type" content="article">
-<meta property="og:title" content="使用Hexo搭建github.io免费个人博客">
+<meta property="og:title" content="使用Hexo搭建github.io个人博客">
 <meta property="og:url" content="https:&#x2F;&#x2F;github.com&#x2F;PenguinAndy&#x2F;2019&#x2F;11&#x2F;05&#x2F;Blog&#x2F;index.html">
 <meta property="og:site_name" content="二两白砂糖&#39;s blogs">
 <meta property="og:description" content="环境：  Mac OS Mojave 10.14.6、Git、HomeBrew、NVM工具及使用内容：TerminalNodejs、Hexo主题hoxo-deployer-git    一、配置环境 HomeBrew：  其实这个已经在官网上介绍的很明确了，HomeBrew官网，总结来说配置只有一条：   1&#x2F;usr&#x2F;bin&#x2F;ruby -e &amp;quot;$(curl -fsSL https:&#x2F;&#x2F;">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-11-06T13:17:16.571Z">
+<meta property="og:updated_time" content="2019-11-07T04:07:31.991Z">
 <meta name="twitter:card" content="summary">
 
 
@@ -95,7 +95,7 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
-    scheme: 'Muse',
+    scheme: 'Gemini',
     version: '5.1.4',
     sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
     fancybox: true,
@@ -123,7 +123,7 @@
 
 
 
-  <title>使用Hexo搭建github.io免费个人博客 | 二两白砂糖's blogs</title>
+  <title>使用Hexo搭建github.io个人博客 | 二两白砂糖's blogs</title>
   
 
 
@@ -179,11 +179,21 @@
       
         
         <li class="menu-item menu-item-home">
-          <a href="https://PenguinAndy.github.io" target="_blank" rel="section noopener">
+          <a href="/" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
             
             首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
           </a>
         </li>
       
@@ -247,7 +257,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">使用Hexo搭建github.io免费个人博客</h1>
+          <h1 class="post-title" itemprop="name headline">使用Hexo搭建github.io个人博客</h1>
         
 
         <div class="post-meta">
@@ -307,7 +317,7 @@
 <h3 id="一、配置环境"><a href="#一、配置环境" class="headerlink" title="一、配置环境"></a>一、配置环境</h3><ul>
 <li><p>HomeBrew：<br>  其实这个已经在官网上介绍的很明确了，<a href="https://brew.sh/index_zh-cn" target="_blank" rel="noopener">HomeBrew官网</a>，总结来说配置只有一条：</p>
   <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;</span><br></pre></td></tr></table></figure>
-
+<a id="more"></a>
 <p>  常用的指令有：<br>  安装：<code>brew install xxx</code>   安装xxx<br>  查找：<code>brew search xxx</code>    查找xxx</p>
 <p>  有点类似<strong>cocoapod</strong>  查看更多指令可以使用 <code>brew --help</code>来查阅</p>
 </li>
@@ -346,31 +356,31 @@
 </ul>
 <h4 id="修改配置："><a href="#修改配置：" class="headerlink" title="修改配置："></a>修改配置：</h4><p>项目配置：<br>修改 <code>blog/_config.yml</code> 文件的配置<br><em>(笔者使用的是Sublime Text，如果没安装的话可以使用vim进行修改)</em><br>参数说明:       </p>
 <blockquote>
-<p>title：二两白砂糖’s blog                   <em>//标题</em><br>subtitle：树深时见鹿                        <em>//副标题</em><br>actor：PenguinAndy-二两白砂糖     <em>//作者</em><br>language：zh-Hans                          <em>//语言（zh-Hans 为简体中文）</em><br>theme:：next                                    <em>//主题（next）</em><br>deploy:</p>
+<p>title：二两白砂糖’s blog                   <em>//标题</em><br>subtitle：树深时见鹿                        <em>//副标题</em><br>actor：PenguinAndy-二两白砂糖     <em>//作者</em><br>language：zh-Hans                          <em>//语言（zh-Hans 为简体中文）</em><br>theme:：next                                    <em>//主题（next）</em><br>deploy:  </p>
 <blockquote>
 <p>type：git                                         <em>//发布类型（git）</em><br>repo：<a href="https://github.com/userName/xxx.github.io.git">https://github.com/userName/xxx.github.io.git</a>       <em>//git仓库地址</em></p>
 </blockquote>
 </blockquote>
 <p>主题配置：<br>修改<code>blog/themes/next/_config.yml</code><br>参数说明：</p>
 <blockquote>
-<p>menu:                                                                                 <em>//菜单栏</em></p>
+<p>menu:                                                                                 <em>//菜单栏</em>  </p>
 <blockquote>
-<p>home: / || home                                                                <em>//首页</em><br>#about: /about/ || user                                                      <em>//关于</em><br>#tags: /tags/ || tags                                                           <em>//标签</em><br>#categories: /categories/ || th                                           <em>//分类</em><br>archives: /archives/ || archive                                            <em>//归档</em><br>#schedule: /schedule/ || calendar                                     <em>//日程表</em><br>#sitemap: /sitemap.xml || sitemap                                    <em>//站地图</em><br>#commonweal: /404/ || heartbeat                                     <em>//公益404</em></p>
-</blockquote>
-</blockquote>
-<blockquote>
-<p>Schemes                                                                             <em>//主题样式</em></p>
-<blockquote>
-<p>scheme: Muse<br>#scheme: Mist<br>#scheme: Pisces<br>#scheme: Gemini</p>
+<p>home: /|| home                                                                <em>//首页</em><br>#about: /about/ || user                                                      <em>//关于</em><br>#tags: /tags/ || tags                                                           <em>//标签</em><br>#categories: /categories/ || th                                           <em>//分类</em><br>archives: /archives/ || archive                                            <em>//归档</em><br>#schedule: /schedule/ || calendar                                     <em>//日程表</em><br>#sitemap: /sitemap.xml || sitemap                                    <em>//站地图</em><br>#commonweal: /404/ || heartbeat                                     <em>//公益404</em>  </p>
 </blockquote>
 </blockquote>
 <blockquote>
-<p>Sidebar Avatar                                                                      <em>//头像</em></p>
+<p>Schemes                                                                             <em>//主题样式</em>  </p>
 <blockquote>
-<p>/# in theme directory(source/images): /images/avatar.gif<br>/# in site  directory(source/uploads): /uploads/avatar.gif<br>avatar: /images/header.JPG</p>
+<p>scheme: Muse<br>#scheme: Mist<br>#scheme: Pisces<br>#scheme: Gemini  </p>
 </blockquote>
 </blockquote>
-<h4 id="写文章"><a href="#写文章" class="headerlink" title="写文章"></a>写文章</h4><p>在 <code>blog/source/_posts/</code> 目录下创建新的md<em>(markdown格式)</em>文件</p>
+<blockquote>
+<p>Sidebar Avatar                                                                      <em>//头像</em>  </p>
+<blockquote>
+<p>/# in theme directory(source/images): /images/avatar.gif<br>/# in site  directory(source/uploads): /uploads/avatar.gif<br>avatar: /images/header.JPG  </p>
+</blockquote>
+</blockquote>
+<h4 id="写文章"><a href="#写文章" class="headerlink" title="写文章"></a>写文章</h4><p>在 <code>blog/source/_posts/</code> 目录下创建新的md <em>(markdown格式)</em> 文件</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cd blog/source/_posts/ &amp;&amp; touch my_first_blog.md &amp;&amp; vim my_first_blog.md</span><br></pre></td></tr></table></figure>
 <p>输入：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: xxx</span><br><span class="line">---</span><br><span class="line">&gt; xxxxxxxxxxxx</span><br></pre></td></tr></table></figure>
@@ -573,8 +583,19 @@
 
 
 
-  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Muse</a> v5.1.4</div>
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Gemini</a> v5.1.4</div>
 
+
+<div>
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<span id="busuanzi_container_site_pv" style='display:none'>
+    本站总访问量 <span id="busuanzi_value_site_pv"></span> 次
+    <span class="post-meta-divider">|</span>
+</span>
+<span id="busuanzi_container_site_uv" style='display:none'>
+    博客查看量 <span id="busuanzi_value_site_uv"></span>
+</span>
+</div>
 
 
 
@@ -672,6 +693,13 @@
 
   
   
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
+
+
 
   
   <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
