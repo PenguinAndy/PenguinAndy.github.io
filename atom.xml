@@ -3,11 +3,11 @@
   <title>二两白砂糖&#39;s blogs</title>
   
   <subtitle>树深时见鹿</subtitle>
-  <link href="/penguin-andy/atom.xml" rel="self"/>
+  <link href="/atom.xml" rel="self"/>
   
-  <link href="https://penguinandy.gitee.io/penguin-andy/"/>
+  <link href="https://penguinandy.gitee.io/"/>
   <updated>2019-11-08T12:38:10.627Z</updated>
-  <id>https://penguinandy.gitee.io/penguin-andy/</id>
+  <id>https://penguinandy.gitee.io/</id>
   
   <author>
     <name>PenguinAndy-二两白砂糖</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>python webService配置流程</title>
-    <link href="https://penguinandy.gitee.io/penguin-andy/2019/11/08/Usage/"/>
-    <id>https://penguinandy.gitee.io/penguin-andy/2019/11/08/Usage/</id>
+    <link href="https://penguinandy.gitee.io/2019/11/08/Usage/"/>
+    <id>https://penguinandy.gitee.io/2019/11/08/Usage/</id>
     <published>2019-11-08T11:21:49.741Z</published>
     <updated>2019-11-08T12:38:10.627Z</updated>
     
@@ -39,8 +39,8 @@
   
   <entry>
     <title>使用Hexo搭建github.io个人博客</title>
-    <link href="https://penguinandy.gitee.io/penguin-andy/2019/11/05/Blog/"/>
-    <id>https://penguinandy.gitee.io/penguin-andy/2019/11/05/Blog/</id>
+    <link href="https://penguinandy.gitee.io/2019/11/05/Blog/"/>
+    <id>https://penguinandy.gitee.io/2019/11/05/Blog/</id>
     <published>2019-11-05T10:23:09.905Z</published>
     <updated>2019-11-07T04:07:31.991Z</updated>
     
